@@ -1,6 +1,6 @@
 <?php
 
-namespace Sanamdeep\Userstory3\Observer;
+namespace Sanamdeep\Userstory3a\Observer;
 
 use Magento\Framework\Event\Observer;
 use Magento\Framework\Event\ObserverInterface;
