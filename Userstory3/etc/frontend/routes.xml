@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="userstory3" frontName="userstory3">
+            <module name="Sanamdeep_Userstory3"/>
+        </route>
+    </router>
+</config>
