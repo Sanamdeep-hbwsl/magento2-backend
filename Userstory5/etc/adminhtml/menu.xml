@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Ronit_US5::hello" title="US5 Access" module="Ronit_US5" sortOrder="20"  resource="Ronit_US5::hello" action="hello/access" />
+    </menu>
+</config>
