@@ -1,0 +1,9 @@
+<!-- app/code/Vendor/Module/view/frontend/layout/module_index_employee.xml -->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+            <block class="Sanamdeep\Userstory8\Block\Form" name="employee_form" template="Sanamdeep_Userstory8::form.phtml" />
+            <block class="Sanamdeep\Userstory8\Block\Table" name="employee_table" template="Sanamdeep_Userstory8::table.phtml" />
+        </referenceContainer>
+    </body>
+</page>
