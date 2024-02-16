@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+    <!-- This code is for the first part of userstory 7 -->
+        <!-- <referenceContainer name="product.info.main">
+            <block class="Sanamdeep\Userstory7\Block\Message" name="message.block" template="Sanamdeep_Userstory7::message.phtml" />
+        </referenceContainer> -->
+        <!-- this for the second part -->
+        <referenceContainer name="product.info.main">
+            <block class="Sanamdeep\Userstory7\Block\Message" name="custom.message" template="Sanamdeep_Userstory7::message.phtml" before="product.info.price" />
+        </referenceContainer>
+    </body>
+</page>
