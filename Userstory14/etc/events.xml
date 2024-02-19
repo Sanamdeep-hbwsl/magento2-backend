@@ -1,0 +1,6 @@
+<!-- app/code/YourVendor/YourModule/etc/events.xml -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="custom_product_low_quantity">
+        <observer name="custom_product_low_quantity_observer" instance="Sanamdeep\Userstory14\Observer\LowQuantityObserver" />
+    </event>
+</config>
