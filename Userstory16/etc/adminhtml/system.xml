@@ -1,0 +1,25 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="Sanamdeep" translate="label" sortOrder="10">
+            <label>Sanamdeep</label>
+        </tab>
+        <section id="userstory16" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Userstory16</label>
+            <tab>Sanamdeep</tab>
+            <resource>Sanamdeep_Userstory16::config_userstory16</resource>
+            <group id="color_settings" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Color Settings</label>
+                <field id="page_color" translate="label comment" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Page Color</label>
+                    <comment>Choose a color for the entire page.</comment>
+                    <frontend_model>Sanamdeep\Userstory16\Block\Adminhtml\System\Config\Form\Field\ColorPicker</frontend_model>
+                </field>
+                <field id="apply_color" translate="label comment" type="button" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Apply Color</label>
+                    <comment><![CDATA[<button onclick="applyColor();">Apply Color</button><script>function applyColor() { var color = jQuery('#Sanamdeep_userstory16_color_settings_page_color').val(); jQuery('body').css('background-color', color); }</script>]]></comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
