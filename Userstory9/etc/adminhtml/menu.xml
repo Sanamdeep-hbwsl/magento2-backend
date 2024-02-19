@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Sanamdeep_Userstory9::main_menu" title="User Story 9" module="Sanamdeep_Userstory9" sortOrder="100" resource="Sanamdeep_Userstory9::config_userstory9" />
+        <add id="Sanamdeep_Userstory9::submenu_item" title="Display Text" module="Sanamdeep_Userstory9" sortOrder="10" action="Sanamdeep_userstory9/index/display" parent="Sanamdeep_Userstory9::main_menu" resource="Sanamdeep_Userstory9::config_userstory9" />
+    </menu>
+</config>
