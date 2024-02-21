@@ -3,7 +3,6 @@ namespace Sanamdeep\Userstory5\Controller\Adminhtml;
 
 use Magento\Backend\App\Action;
 use Magento\Backend\App\Action\Context;
-use Magento\Framework\App\ResponseInterface;
 
 class CustomController extends Action
 {
