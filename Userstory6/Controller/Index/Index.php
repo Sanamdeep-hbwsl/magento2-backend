@@ -1,7 +1,6 @@
 <?php
 
 namespace Sanamdeep\Userstory6\Controller\Index;
-
 use Magento\Framework\App\ActionInterface;
 use Magento\Framework\View\Result\PageFactory;
 
