@@ -2,8 +2,6 @@
 
 namespace Sanamdeep\Userstory1a\Controller\Index;
 
-// use Magento\Framework\App\Action\Action;
-use Magento\Framework\App\Action\Context;
 use Magento\Framework\App\ActionInterface;
 use Sanamdeep\Userstory1a\Model\Test;
 use Magento\Framework\View\Result\PageFactory;
