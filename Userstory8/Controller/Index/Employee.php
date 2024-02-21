@@ -1,6 +1,4 @@
 <?php
-// app/code/Vendor/Module/Controller/Index/Employee.php
-
 namespace Sanamdeep\Userstory8\Controller\Index;
 
 use Magento\Framework\App\Action\Action;
