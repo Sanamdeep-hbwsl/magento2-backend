@@ -1,0 +1,28 @@
+<?php $collection = $block->getEmployeeCollection(); ?>
+<table>
+    <thead>
+        <tr>
+            <th><a href="<?= $block->getUrl('*/*/*', ['order_field' => 'first_name', 'order_direction' => 'asc']) ?>">First Name</a></th>
+            <th><a href="<?= $block->getUrl('*/*/*', ['order_field' => 'last_name', 'order_direction' => 'asc']) ?>">Last Name</a></th>
+            <th><a href="<?= $block->getUrl('*/*/*', ['order_field' => 'email_id', 'order_direction' => 'asc']) ?>">Email</a></th>
+            <th><a href="<?= $block->getUrl('*/*/*', ['order_field' => 'address', 'order_direction' => 'asc']) ?>">Address</a></th>
+            <th><a href="<?= $block->getUrl('*/*/*', ['order_field' => 'phone_number', 'order_direction' => 'asc']) ?>">Phone Number</a></th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php foreach ($collection as $employee): ?>
+            <tr>
+                <td><?= $employee->getData('first_name') ?></td>
+                <td><?= $employee->getData('last_name') ?></td>
+                <td><?= $employee->getData('email_id') ?></td>
+                <td><?= $employee->getData('address') ?></td>
+                <td><?= $employee->getData('phone_number') ?></td>
+                <td>
+                    <a href="<?= $block->getUrl('userstory8a/employee/edit', ['employee_id' => $employee->getEmployeeId()]) ?>">Edit</a>
+                    <a href="<?= $block->getUrl('userstory8a/employee/delete', ['employee_id' => $employee->getEmployeeId()]) ?>">Delete</a>
+                </td>
+            </tr>
+        <?php endforeach; ?>
+    </tbody>
+</table>

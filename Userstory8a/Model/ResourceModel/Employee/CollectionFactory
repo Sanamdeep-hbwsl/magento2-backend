@@ -1,0 +1,19 @@
+<?php
+
+namespace Sanamdeep\Userstory8a\Model\ResourceModel\Employee;
+
+class CollectionFactory
+{
+    protected $_objectManager;
+
+    public function __construct(
+        \Magento\Framework\ObjectManagerInterface $objectManager
+    ) {
+        $this->_objectManager = $objectManager;
+    }
+
+    public function create()
+    {
+        return $this->_objectManager->create('Sanamdeep\Userstory8a\Model\ResourceModel\Employee\Collection');
+    }
+}
