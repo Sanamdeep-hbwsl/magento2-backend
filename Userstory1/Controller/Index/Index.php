@@ -28,3 +28,4 @@ class Index implements ActionInterface
         return $page;
     }
 }
+
